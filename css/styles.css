@@ -60,6 +60,7 @@ main {
 section {
     position: relative;
     min-height: 80vh;
+    transition: 0.5s
 }
 
 /* ---- Module Rules ---- */
@@ -79,16 +80,18 @@ ul {
   }
 
   li a {
-      
+      transition:0.8s;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   li a:hover {
     background-color: white;
     cursor:hand;
+    
     
     color:blue;
     transform: scale(1.1);
